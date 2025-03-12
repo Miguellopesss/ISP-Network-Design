@@ -1,0 +1,43 @@
+Nov 07 15:11:23.488 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 07 15:11:23.490 HYPERVISOR: Started on IP = localhost, TCP port = 54216.
+Nov 07 15:11:23.977 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 07 15:11:23.978 HYPERVISOR: exec_cmd: hypervisor working_dir E:\Universidade\3ºAno\TopicosAvancadosDeRedes\Projeto\projeto_2222397\project-files\dynamips 
+Nov 07 15:11:23.979 GENERAL: working_dir=E:\Universidade\3ºAno\TopicosAvancadosDeRedes\Projeto\projeto_2222397\project-files\dynamips
+Nov 07 15:11:23.979 HYPERVISOR: exec_cmd: hypervisor working_dir E:\Universidade\3ºAno\TopicosAvancadosDeRedes\Projeto\projeto_2222397\project-files\dynamips\5159a8fd-b4ae-4be9-86d5-4abac1ed917c 
+Nov 07 15:11:23.981 GENERAL: working_dir=E:\Universidade\3ºAno\TopicosAvancadosDeRedes\Projeto\projeto_2222397\project-files\dynamips\5159a8fd-b4ae-4be9-86d5-4abac1ed917c
+Nov 07 15:11:23.982 HYPERVISOR: exec_cmd: vm create A3-R7 21 c7200 
+Nov 07 15:11:23.985 VM: VM A3-R7 created.
+Nov 07 15:11:23.986 HYPERVISOR: exec_cmd: vm set_con_tcp_port A3-R7 5030 
+Nov 07 15:11:23.986 HYPERVISOR: exec_cmd: c7200 get_mac_addr A3-R7 
+Nov 07 15:11:23.987 HYPERVISOR: exec_cmd: vm get_status A3-R7 
+Nov 07 15:11:23.987 HYPERVISOR: exec_cmd: vm slot_add_binding A3-R7 0 0 C7200-IO-FE 
+Nov 07 15:11:23.989 HYPERVISOR: exec_cmd: vm set_disk0 A3-R7 0 
+Nov 07 15:11:23.990 HYPERVISOR: exec_cmd: vm set_exec_area A3-R7 64 
+Nov 07 15:11:23.991 HYPERVISOR: exec_cmd: vm get_status A3-R7 
+Nov 07 15:11:23.991 HYPERVISOR: exec_cmd: vm set_idle_pc A3-R7 0x60189224 
+Nov 07 15:11:23.993 HYPERVISOR: exec_cmd: vm set_ios A3-R7 E:/Universidade/3ºAno/TopicosAvancadosDeRedes/c7200-adventerprisek9-mz.152-4.M10.image 
+Nov 07 15:11:23.994 HYPERVISOR: exec_cmd: c7200 set_mac_addr A3-R7 ca15.258c.0000 
+Nov 07 15:11:23.995 HYPERVISOR: exec_cmd: vm set_nvram A3-R7 512 
+Nov 07 15:11:23.996 HYPERVISOR: exec_cmd: vm get_status A3-R7 
+Nov 07 15:11:23.996 HYPERVISOR: exec_cmd: vm slot_remove_binding A3-R7 0 0 
+Nov 07 15:11:23.998 HYPERVISOR: exec_cmd: vm get_status A3-R7 
+Nov 07 15:11:23.998 HYPERVISOR: exec_cmd: vm slot_add_binding A3-R7 0 0 C7200-IO-2FE 
+Nov 07 15:11:23.999 HYPERVISOR: exec_cmd: vm get_status A3-R7 
+Nov 07 15:11:23.999 HYPERVISOR: exec_cmd: vm slot_add_binding A3-R7 1 0 PA-2FE-TX 
+Nov 07 15:11:24.000 HYPERVISOR: exec_cmd: vm get_status A3-R7 
+Nov 07 15:11:24.000 HYPERVISOR: exec_cmd: vm slot_add_binding A3-R7 2 0 PA-2FE-TX 
+Nov 07 15:11:57.352 HYPERVISOR: exec_cmd: nio create_udp udp-66667e21-fcef-4972-ae1b-38613bf70da6 10210 127.0.0.1 10211 
+Nov 07 15:11:58.567 HYPERVISOR: exec_cmd: vm slot_add_nio_binding A3-R7 0 0 udp-66667e21-fcef-4972-ae1b-38613bf70da6 
+Nov 07 15:11:58.568 HYPERVISOR: exec_cmd: vm get_status A3-R7 
+Nov 07 15:12:05.368 HYPERVISOR: exec_cmd: nio create_udp udp-5c89d69f-59f4-4320-a4e2-247d5e0be38b 10234 127.0.0.1 10235 
+Nov 07 15:12:05.414 HYPERVISOR: exec_cmd: vm slot_add_nio_binding A3-R7 0 1 udp-5c89d69f-59f4-4320-a4e2-247d5e0be38b 
+Nov 07 15:12:05.416 HYPERVISOR: exec_cmd: vm get_status A3-R7 
+Nov 07 15:12:21.902 HYPERVISOR: exec_cmd: vm get_status A3-R7 
+Nov 07 15:12:21.904 HYPERVISOR: exec_cmd: vm extract_config A3-R7 
+Nov 07 15:12:22.400 HYPERVISOR: exec_cmd: vm get_status A3-R7 
+Nov 07 15:12:22.401 HYPERVISOR: exec_cmd: vm extract_config A3-R7 
+Nov 07 15:12:22.402 HYPERVISOR: exec_cmd: vm delete A3-R7 
+Nov 07 15:12:22.402 VM: VM A3-R7 destroyed.
+Nov 07 15:12:22.404 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 07 15:12:22.903 HYPERVISOR: Stopped.
+Nov 07 15:12:22.903 GENERAL: reset done.
